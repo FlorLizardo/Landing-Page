@@ -1,0 +1,166 @@
+li{
+    list-style:none;
+  }
+    a {
+    color: #000;
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Philosopher', sans-serif;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    background: linear-gradient(45deg, #99EE99, #FFCC87);
+  }
+  
+  #header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.5;
+    background-color: #CCFFCC;
+    position: fixed;
+  }
+  #header-img{
+    margin-top: 1px;
+    margin-left: 0px;
+    width: 5vw;
+  }
+  nav {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 650px) {
+    #header-img{
+      margin-top: 15px;
+      width: 10vw;
+      position: fixed;
+    }
+  }
+  #nav-bar{
+    margin-top: 5px;
+    text-align: right;
+    align-content: flex-end;
+  }
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+    margin-left: 190px;
+  }
+  
+  #container{
+    justify-content: center;
+    padding: 70px 50px 60px 30px;
+    margin: 10px 130px 10px 130px;
+  }
+  
+  #introduction{
+    text-align: center;
+  }
+  
+  h1{
+    font-family: 'Great Vibes';
+    font-size: 30px;
+    color: orange;
+  }
+  
+  #caracteristicas{
+    padding-top: 50px
+  }
+  
+  h2{
+    text-align: left;
+    color: orange;
+  }
+  
+  #nuestro-trabajo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  #precios{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 18px 18px 10px 3px;
+    padding: 10px 15px;
+    border: 3px solid gray;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #999;
+    padding-bottom: 16px;
+  }
+  
+  #product > h3{
+    color: orange;
+  }
+  
+  #product > h4{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 2px;
+  }
+  
+  #product > ul > li{
+    margin: 3px 10px 3px 2px;
+  }
+  
+  #product > button{
+    border-radius: 3px;
+    border: 2px solid gray;
+  }
+  
+  #product > button:hover{
+    background-color: gray;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color:;
+    padding: 50px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+  
+  @media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;}
+   
+    }
+    #form{
+     text-align: center; 
+    }
+    
